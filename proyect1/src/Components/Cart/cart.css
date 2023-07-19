@@ -1,0 +1,16 @@
+.container{
+    background-color: aquamarine;
+}
+
+.formcontainer{
+    width: 450px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.containerItem{
+    width: 100%;
+    height: auto;
+    background-color: aliceblue;
+}

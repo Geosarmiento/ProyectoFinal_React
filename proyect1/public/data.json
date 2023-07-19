@@ -1,0 +1,114 @@
+[
+    {
+      "id": 1,
+      "nombre": "Tshirt",
+      "tipo": "Camiseta",
+      "cantidad": 1,
+      "desc": "Camiseta Color Gris",
+      "precio": 25,
+      "talla": "L",
+      "img": "./img/buzo.jpg"
+    },
+  
+    {
+      "id": 2,
+       "nombre": "Tshirt",
+       "tipo": "Camiseta",
+       "cantidad": 1,
+       "desc": "Camiseta Color Negro",
+       "precio": 35,
+       "talla": "L",
+       "img": "./img/remera.jpg"
+    },
+  
+    {
+      "id": 3,
+     "nombre": "Tshirt",
+      "tipo": "Camiseta",
+      "cantidad": 1,
+      "desc": "Camiseta Color Azul",
+      "precio": 28,
+      "talle": "L",
+      "img": "./img/camisa.jpg"
+    },
+  
+    {
+      "id": 4,
+      "nombre": "Tshirt",
+      "tipo": "Camiseta",
+      "cantidad": 1,
+      "desc": "Camiseta Color Roja",
+      "precio": 32,
+      "talle": "L",
+      "img": "./img/pantalon.jpg"
+    },
+  
+    {
+      "id": 5,
+      "nombre": "Tshirt",
+      "tipo": "Camiseta",
+      "cantidad": 1,
+     "desc": "Camiseta Color Roja",
+     "precio": 32,
+      "talle": "L",
+      "img": "./img/pantalon.jpg"
+    },
+  
+    {
+      "id": 6,
+      "nombre": "Tshirt",
+      "tipo": "Camiseta",
+      "cantidad": 1,
+      "desc": "Camiseta Color Roja",
+      "precio": 32,
+      "talle": "L",
+      "img": "./img/pantalon.jpg"
+    },
+  
+    {
+      "id": 7,
+      "nombre": "Tshirt",
+      "tipo": "Camiseta",
+      "cantidad": 1,
+      "desc": "Camiseta Color Roja",
+      "precio": 32,
+      "talle": "L",
+      "img": "./img/pantalon.jpg"
+    },
+  
+    {
+      "id": 8,
+      "nombre": "Tshirt",
+      "tipo": "Camiseta",
+      "cantidad": 1,
+      "desc": "Camiseta Color Roja",
+      "precio": 32,
+      "talle": "L",
+      "img": "./img/pantalon.jpg"
+    },
+  
+    {
+      "id": 9,
+       "nombre": "Tshirt",
+       "tipo": "Camiseta",
+       "cantidad": 1,
+       "desc": "Camiseta Color Negro",
+       "precio": 35,
+       "talla": "L",
+       "img": "./img/remera.jpg"
+    },
+  
+    {
+      "id": 10,
+     "nombre": "Tshirt",
+      "tipo": "Camiseta",
+      "cantidad": 1,
+      "desc": "Camiseta Color Azul",
+      "precio": 28,
+      "talle": "L",
+      "img": "./img/camisa.jpg"
+    }
+  
+   
+  ]
+  
