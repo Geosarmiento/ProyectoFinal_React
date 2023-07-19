@@ -1,0 +1,37 @@
+.count{
+  
+    justify-content: space-between;
+    background-color: white;
+    width: 100%;
+   
+}
+
+.count span{
+    padding:10px 20px ;
+    text-align: center;
+  align-items: center;
+}
+
+.btnCount {
+ 
+    background-color: rgb(104, 104, 104);
+    color: aliceblue;
+    border: none;
+    padding:5px 20px ;
+    text-align: center;
+    margin-bottom: 5px;
+
+  }
+
+  .btn2{
+    align-items: end;
+  }
+
+  .addc{
+    width: 100%;
+    background-color: black;
+    color: aliceblue;
+    border: none;
+    padding:10px 20px ;
+    text-align: center;
+  }

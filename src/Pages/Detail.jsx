@@ -11,11 +11,12 @@ import {db} from "../Components/Firebase/FirebaseConfig";
 import Count from '../Components/Cart/Count';
 import CartProduct from "../Components/Card/CardProduct"
 
+import "./detail.css"
 
 
 
 const Detail = () => {
-  const { addCart } = useContext(ProductsContext)
+  const { addCart , cajas} = useContext(ProductsContext)
  
 const [caja, setCaja] = useState([]);
 
@@ -49,8 +50,11 @@ const onAdd = (quantity) => {
   }
   return (
     <>
-    <div>
       <h1>Detalles Productos </h1>
+
+
+    <div className='detailContainer'>
+    
 
       <div key={caja.id}>
          {caja.map((cajas) =>{
@@ -59,8 +63,10 @@ const onAdd = (quantity) => {
 
       </div>
 
-      <div>
-        <Count initial={1} stock={12} onAdd={onAdd} />
+      <div className='countContainer'>
+          <div>Producto: {cajas.nombre}</div>
+          <div>Descripcion: Elaborado en carton{cajas.descripcion}</div>
+          <Count initial={1} stock={12} onAdd={onAdd} />
       </div>
     
     </div>
