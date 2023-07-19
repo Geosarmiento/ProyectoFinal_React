@@ -1,8 +1,23 @@
+
+
 import React from 'react'
+
+import Slider from '../Components/Slider/Slider';
+import Novedades from '../Components/Novedades/Novedades'
 
 const Home = () => {
   return (
-    <div>Home</div>
+
+
+    <div>Home
+
+
+<Slider/>
+
+<Novedades/>
+
+
+    </div>
   )
 }
 

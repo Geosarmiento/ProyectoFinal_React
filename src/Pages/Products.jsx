@@ -29,7 +29,8 @@ const Products = () => {
               <CardProduct  cajas={cajas}/> 
             </Link>
 
-          </div>)
+          </div>
+          )
 })}
         
         

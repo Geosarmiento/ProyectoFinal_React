@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Routes, Route} from "react-router-dom";
 import NavBar from './Components/NavBar/NavBar';
 import Search from "../src/Components/Search/Search";
 import Cart from"../src/Components/Cart/Cart";
+import Footer from "./Components/Footer/Footer";
 
 
 import { ItemsProvider } from "./Context/Context";
@@ -19,6 +20,7 @@ import "./app.css";
 
 
 
+
 function App() {
   
 
@@ -31,9 +33,9 @@ function App() {
          
             <NavBar/>
 
-
-
             <Search/>
+
+            
            
 
               <Routes>
@@ -45,8 +47,10 @@ function App() {
                   <Route path="/cart"  element={<Cart/>}/>
                   <Route path="*"  element={<Error/>}/>
               </Routes>
-             
 
+         
+             
+            <Footer/>
            </Router>
 
          
