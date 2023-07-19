@@ -1,4 +1,8 @@
 import { BrowserRouter as Router, Routes, Route} from "react-router-dom";
+{
+  /* The following line can be included in your src/index.js or App.js file */
+}
+import "bootstrap/dist/css/bootstrap.min.css";
 
 import NavBar from './Components/NavBar/NavBar';
 import Search from "../src/Components/Search/Search";
@@ -33,7 +37,6 @@ function App() {
          
             <NavBar/>
 
-            <Search/>
 
             
            

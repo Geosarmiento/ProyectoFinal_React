@@ -7,7 +7,7 @@
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    background-color: rgb(235, 235, 235);
+    background-color: rgb(26, 23, 23);
     height: 60px;
    
   }
@@ -21,6 +21,7 @@
     margin: 15px;
     position: relative;
     text-decoration: none;
+    color: aliceblue;
   }
  
 
