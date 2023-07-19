@@ -20,7 +20,7 @@ const NavBar = () => {
       <div className="nav_logo">
         <Link to="/">
           {" "}
-          <span>logo</span>{" "}
+          <span> <h5 className="logo">GeoShop</h5></span>{" "}
         </Link>
       </div>
 

@@ -4,6 +4,16 @@
 
 }
 
+ 
+
 body{
-    font-family: Georgia, 'Times New Roman', Times, serif;
+   font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+    text-align: center;
+    margin: 40px 20px;
+}
+h2{
+    text-align: center;
 }

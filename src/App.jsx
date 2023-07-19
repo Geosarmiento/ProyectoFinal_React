@@ -5,7 +5,6 @@ import { BrowserRouter as Router, Routes, Route} from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 import NavBar from './Components/NavBar/NavBar';
-import Search from "../src/Components/Search/Search";
 import Cart from"../src/Components/Cart/Cart";
 import Footer from "./Components/Footer/Footer";
 
